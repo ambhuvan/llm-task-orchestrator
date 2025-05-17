@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "fastapi-dev": "/Users/husnu/Desktop/fast-api-next/myenv/bin/python -m uvicorn app.api.index:app --reload",
+    "fastapi-dev": "myenv\\Scripts\\python -m uvicorn app.api.index:app --reload",
     "next-dev": "next dev",
     "dev": "concurrently \"pnpm run next-dev\" \"pnpm run fastapi-dev\"",
     "build": "next build",
